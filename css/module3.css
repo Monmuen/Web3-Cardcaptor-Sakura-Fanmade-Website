@@ -1,0 +1,89 @@
+.atl_inner {
+    overflow: hidden;
+    width: 70%;
+    margin-left: 230px;
+}
+#cms_block div.img_l_tp3 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+.wdx550_l {
+    float: left;
+    width: 550px;
+}
+.ph img {
+    width: 95%;
+    height: auto;
+}
+img {
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+
+}
+div.cap {
+    display: block;
+    font-size: 0.6rem;
+    text-align: left;
+}
+div.mgn_l_550 {
+    margin: 0px 0px 0px 560px;
+}
+.efcre02 {
+    color: #ee4c59;
+}
+.efwbl {
+    font-weight: bold;
+}
+.efsbbg {
+    font-size: 80%;
+}
+.efsnm {
+    font-size: 60%;
+}
+
+.block.line_01,.block.line_02 {
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    border-bottom: dashed 1px #72D5D4;
+    font-size: 0.7rem;
+}
+.atl_inner {
+    overflow: hidden;
+}
+div.read {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.story_line {
+    width: 95%;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.story_line h3 {
+    color: #72d5d4;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.story_line .catch {
+    font-size: 1.1rem;
+    margin: 20px 0px;
+    font-weight: bold;
+    color: #e72972;
+}
+.story_line ul#staff {
+    width: 60%;
+}
+.story_line ul {
+    float: left;
+
+}
+ul {
+    list-style: none;
+    text-align: left;
+}

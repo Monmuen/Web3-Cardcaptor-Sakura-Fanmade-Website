@@ -1,0 +1,29 @@
+.box{
+    width: 70%;
+    height:860px;
+    background-color: rgba(220,200,200,0.2);
+    margin-left: 220px;
+}
+.ph1 img{
+    width: 210px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.ph img{
+    width: 141px;
+    float: left;
+    margin-left: 19px;
+    margin-bottom: 19px;
+}
+.read_l{
+    position: absolute;
+    top: 360px;
+    left: 480px;
+    font-size: 40%;
+    width: 50%;
+}
+.comic_cap {
+    border: 1px solid #552d36;
+    padding: 20px;
+    margin: 30px 0px 0px 0px;
+}

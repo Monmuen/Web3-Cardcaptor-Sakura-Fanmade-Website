@@ -1,0 +1,13 @@
+.columns{
+    position: relative;
+    width: 700px;
+    height:430px;
+    margin-left: 370px;
+    background: url(../image/info_bg.png);
+    opacity: 0.8;
+    margin-bottom: 150px;
+ }
+ iframe{
+    width: 700px;
+    height: 430px;
+ }

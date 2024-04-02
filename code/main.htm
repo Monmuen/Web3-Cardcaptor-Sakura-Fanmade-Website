@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>登录页</title>
+    	<style type="text/css">
+		@import url(../css/master.css);
+        @import url(../css/layout.css);
+        @import url(../css/forms.css);
+	</style>
+    <script src="../js/jquery.min.js" defer="defer" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/new_file.js" defer="defer" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <hr>
+    <header>
+     <div id="logo_wrap">
+        <div id="logo_img">
+            <a href="../code/main.htm"><img src="../image/25thlogo.png" alt="25thlogo" title></a>
+        </div>
+        <h1>
+        <span id="h1_1">CardCaptor
+            <b>Sakura</b>
+        </span>
+        <span id="h1_2">FANMADE WEB SITE</span>
+        <span id="h1_3">魔卡少女樱</span>
+        </h1>
+     </div>
+   
+	<div id="nav">
+		<ul>
+			<li><a href="#">介绍</a>
+                <ul>
+                    <li><a href="../code/introduction1.html">系列作品介绍</a></li>
+                    <li><a href="../code/introduction2.html">主要人物介绍</a></li>
+       
+                </ul>
+			</li>
+			<li><a href="#">动画</a>
+                <ul>
+                    <li><a href="../code/anime1.html">魔卡少女樱 库洛卡牌篇</a></li>
+                    <li><a href="../code/anime2.html">魔卡少女樱 小樱卡牌篇</a></li>
+                    <li><a href="../code/anime3.html">魔卡少女樱 透明卡牌篇</a></li>
+            
+                </ul>	
+            </li>		
+			<li><a href="elseanime.html">其他动画</a></li>
+            <li><a href="op_show.html">OP展示</a></li>
+            <li><a href="comic.html">漫画原作</a></li>
+		</ul>
+	</div>
+   </header>
+    <main>
+        <div class="out">
+            <ul>
+                <li class="images">
+                    <img src="../image/12.jpg">
+                </li>
+                <li class="images">
+                    <img src="../image/13.jpg">
+                </li>
+            </ul>
+         
+            <ol>
+                <li class="anNius" onclick="anNius(0)"></li>
+                <li class="anNius" onclick="anNius(1)"></li>
+            </ol>
+    </div>
+    <form>
+        <div class="loginbar">
+            <div id="loginbar_title">
+                <h2>
+                    <span>L</span>OGINBAR
+                </h2>
+            </div>
+            <br>
+            <label for="uname">用户ID:</label>
+            <input type="text" id="uname" name="uname" pattern="^(?=.*\d)(?=.*[a-z]).{3,6}$" placeholder="3-6个字符，由小写字母和数字组成" required="" title="请规范输入">
+            <br>
+            <label for="password">密码:</label>
+            <br>
+            <input type="password" name="password" id="passwd" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$" placeholder="8-10个字符，由大小写字母和数字组成" required="" title="请规范输入">
+            <button class="button" style="vertical-align:middle"><span>提交</span></button>
+        </div>
+    </form>
+</main>
+    <footer>
+        <div id="footer">
+            <br>
+            <div id="copywrite">
+                <p>© CLAMP・ShigatsuTsuitachi CO.,LTD.／講談社</p>
+                <p>© CLAMP・ST・講談社／NHK・NEP</p>
+                <p>© CLAMP・ST／講談社・NEP・NHK</p>
+            </div>
+            <br>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+

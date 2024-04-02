@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   font-size: 1.5rem;
+   line-height: 1.7;
+   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ" , Meiryo;
+   font-style: normal !important;
+   margin: 0px;
+   padding: 0px;
+   color: #552d36;
+   position: relative;
+   background: url(../image/3.png) top right no-repeat;
+   background-attachment: fixed;
+}
+
+
+
+hr{
+height: 3px;
+background-color: #ffdcd6;
+border: solid 4px #ffdcd6;
+}
+
+
+header {
+   margin: 0px auto;
+   padding: 0px;
+   width: 1000px;
+}
+
+
+#logo_wrap {
+   padding: 0px 0px 0px 0px;
+}
+#logo_wrap #logo_img {
+   width: 105px;
+   display: inline-block;
+
+   vertical-align: middle;
+}
+#logo_wrap #logo_img img {
+   width: 100%;
+   height: auto;
+}
+#logo_wrap h1 {
+   line-height: 1;
+   display: inline-block;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+   vertical-align: middle;
+   padding: 20px 0px 0px 20px;
+}
+#logo_wrap h1 #h1_1 {
+   color: #ff6b91;
+   font-size: 3.0rem;
+}
+#logo_wrap h1 #h1_1 b {
+   font-weight: 300;
+   font-size: 3.4rem;
+   padding: 0px 0px 0px 5px;
+}
+#logo_wrap h1 #h1_2 {
+   color: #a68c6a;
+   font-size: 2.4rem;
+}
+#logo_wrap h1 #h1_3 {
+    display: block;
+    font-family: 'M+ 1c light';
+    color: #5e5e5e;
+    font-size: 2.0rem;
+}
+
+
+#nav{                        
+   clear: both;
+   padding: 0px;
+   margin: 0px auto 20px;
+   font-weight: bold;
+   text-align: left;
+   font-family: 'M+ 1c 细体';
+   line-height: 1;     
+   z-index: 9999;
+   position: relative;
+}
+#nav ul{
+   list-style: none;
+   margin: 0px -1px;
+   padding: 0px 0px;
+   font-size: 0;
+   display: flex;
+}
+#nav li{
+  font-size: 1rem;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 1px;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  flex: 1 auto;}
+#nav a{
+     margin: 0px;
+     padding: 5px 2.5em 5px;
+     display: block;
+     background: #ff6b91;
+     color: #fff;
+     border-radius: 3px;
+     width: auto;
+ }
+#nav ul li              
+{
+  width:160px; 
+  height:45px;    
+  list-style:none;
+  float:left;
+  color:white;
+  font-size:18px;
+  font-family:"微软雅黑";
+  text-align:center;
+  line-height:30px;
+
+}
+#nav ul li a                    
+{
+  color:white;
+  font-size:15px;
+  font-family:"微软雅黑";
+  text-decoration:none;
+}		
+#nav>ul>li:hover
+{
+  opacity: 0.8;
+}		
+#nav ul li ul li 
+{
+  border:none;
+  width:max-content;
+  margin-top:0px;
+  margin-left: 2px;
+} 
+#nav ul li ul
+{
+  display:none;
+}
+#nav ul li ul li:hover
+{
+  opacity:0.8 ;
+}		
+#nav ul li:hover ul
+{
+  display:block;
+}	
+
+
+
+#footer {
+   margin: 0px auto;
+   padding: 0px;
+   border-top: 5px solid #ffdcd6;
+}
+#copywrite{
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+   width: 100%;
+}
+#copywrite p {
+   margin: 0px;
+   padding: 3px 15px;
+   font-size: 1.0rem;
+   display: inline-block;
+}

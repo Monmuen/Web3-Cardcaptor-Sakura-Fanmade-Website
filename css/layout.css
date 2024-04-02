@@ -1,0 +1,46 @@
+.out{
+    position: relative;
+     text-align: center;
+    z-index: -1;
+    margin-top: -130px;
+ }
+ .out>ul{
+     position: relative;
+     margin: 0px auto;
+     width: 960px;
+     height: 709px;
+     transform: scale(0.6);
+ }
+ .out>ul>li{
+     position: absolute;
+     opacity: 0;
+     transition: all,1s;
+ }
+ .out>ul>li:hover{
+     cursor: pointer;
+ }
+ .out>ul>li>img{
+     width: 991.25;
+     height: 390;
+    position: relative;
+    margin-left: -170px;
+ }
+ .out>ol{
+     position: absolute;
+     top: 600px;
+     left: 47%;
+    color: transparent;
+ }
+ .out>ol>li{
+     background-color: transparent;
+     width: 10px ;
+     height: 10px;
+     float: left;
+     margin-left: 30px;
+     border-radius: 50%;
+ }
+ .out>ol::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
